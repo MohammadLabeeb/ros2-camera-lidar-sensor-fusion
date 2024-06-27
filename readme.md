@@ -23,11 +23,9 @@
 
 To install the Environmental Model package, follow the steps below:
 
-**Establish a workspace, enter it, and subsequently create a "src" folder, navigating into it.**
-
 ### Step 1: Clone the Repository
 
-Initiate the process by launching a terminal and navigating to the designated directory for cloning the package. Subsequently, execute the following command to clone the repository:
+Initiate the process by launching a terminal and navigating to your workspace to clone the package. Subsequently, execute the following command to clone the repository:
 
 ```shell
 git clone https://github.com/MohammadLabeeb/ros2-camera-lidar-sensor-fusion.git
