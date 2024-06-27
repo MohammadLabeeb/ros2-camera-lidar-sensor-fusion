@@ -1,0 +1,27 @@
+labeeb@labeeb-Inspiron-5577:~/Parkonomous_ws$ /bin/python3 /home/labeeb/Parkonomous_ws/src/Environmental_model/test/test_environmental_model_with_bag.py
+[INFO] [1719421526.136809395] [sensor_fusion_node]: Received Camera intrinsics
+[INFO] [1719421526.137442050] [sensor_fusion_node]: Camera intrinsics: f_x=525.0, f_y=525.0, c_x=320.0, c_y=240.0
+[INFO] [1719421526.137993171] [sensor_fusion_node]: Received image
+[INFO] [1719421526.139640497] [sensor_fusion_node]: Received LiDAR scan
+[INFO] [1719421526.140197691] [sensor_fusion_node]: Processing laserscan points
+[INFO] [1719421526.141645693] [sensor_fusion_node]: Received detections
+[INFO] [1719421526.142207744] [sensor_fusion_node]: Projecting LiDAR points to image plane
+[INFO] [1719421526.142717659] [sensor_fusion_node]: Starting to transform points
+[INFO] [1719421526.143779196] [sensor_fusion_node]: Detection BBox Center: (320.0, 240.0) Size: (50.0, 50.0)
+[INFO] [1719421526.144250452] [sensor_fusion_node]: Starting to calculate distance
+[INFO] [1719421526.144749300] [sensor_fusion_node]: Distances: [(1.0, 297.5149814775958, 240.0), (1.0, 302.7725350137737, 240.0), (1.0, 308.0266391166092, 240.0), (1.0, 313.27834714186093, 240.0), (1.0, 318.52871052651375, 240.0), (1.0, 323.77877963134216, 240.0), (1.0, 329.029604581643, 240.0), (1.0, 334.2822361075677, 240.0), (1.0, 339.5377263854828, 240.0), (1.0, 344.79712988179244, 240.0)]
+[INFO] [1719421526.145211437] [sensor_fusion_node]: Starting to draw BBox
+[INFO] [1719421526.145804637] [sensor_fusion_node]: Drawn bounding box: car: 1.00m
+[INFO] [1719421526.146309992] [sensor_fusion_node]: Drawn LiDAR point: (297.5149814775958, 240.0)
+[INFO] [1719421526.146840964] [sensor_fusion_node]: Detection BBox Center: (320.0, 240.0) Size: (50.0, 50.0)
+[INFO] [1719421526.147295195] [sensor_fusion_node]: Starting to calculate distance
+[INFO] [1719421526.147782723] [sensor_fusion_node]: Distances: [(1.0, 297.5149814775958, 240.0), (1.0, 302.7725350137737, 240.0), (1.0, 308.0266391166092, 240.0), (1.0, 313.27834714186093, 240.0), (1.0, 318.52871052651375, 240.0), (1.0, 323.77877963134216, 240.0), (1.0, 329.029604581643, 240.0), (1.0, 334.2822361075677, 240.0), (1.0, 339.5377263854828, 240.0), (1.0, 344.79712988179244, 240.0)]
+[INFO] [1719421526.148273890] [sensor_fusion_node]: Starting to draw BBox
+[INFO] [1719421526.148901777] [sensor_fusion_node]: Drawn bounding box: car: 1.00m
+[INFO] [1719421526.149382973] [sensor_fusion_node]: Drawn LiDAR point: (297.5149814775958, 240.0)
+[INFO] [1719421526.149827598] [sensor_fusion_node]: Publishing annotated image
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.143s
+
+OK

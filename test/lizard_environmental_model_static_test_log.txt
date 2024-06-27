@@ -1,0 +1,30 @@
+labeeb@labeeb-Inspiron-5577:~/Parkonomous_ws$ lizard /home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      22      1    198      1      33 __init__@42-74@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+       3      1     32      2       4 image_callback@77-80@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      22      6    163      2      34 detection_callback@83-116@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+       5      1     37      2       7 lidar_callback@119-125@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+       2      1      9      2       3 pose_callback@128-130@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      10      1     62      2      11 camera_info_callback@133-143@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+       8      2     51      3       9 get_transform@146-154@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      13      3     99      7      17 project_lidar_to_image@157-173@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+       9      2     73      3      12 transform_points@176-187@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      10      4    127      3      14 calculate_distance@190-203@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      18      4    285      6      22 draw_bounding_box@206-227@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      13      4    107      2      19 process_lidar@230-248@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+      19      4    157      2      23 publish_filtered_lidar@251-273@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+       6      1     36      1       6 main@276-281@/home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+1 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    195      11.4     2.5      102.6        14     /home/labeeb/Parkonomous_ws/src/Environmental_model/environmental_model/environmental_model.py
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       195      11.4     2.5      102.6       14            0      0.00    0.00
